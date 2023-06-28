@@ -1,0 +1,71 @@
+Inizio:         ld      Numero
+                st      a
+                ldv     10
+                st      b
+                jmp     InizioDivisione
+
+DopoDiv:        ld      R
+                st      SecondaCifra
+                ld      Q
+                st      PrimaCifra
+
+                ldv     16
+                st      a
+                ld      PrimaCifra
+                st      b
+                jmp     InizioMolt
+
+DopoMolt:       ld      c
+                add     SecondaCifra
+                st      Risultato
+
+                ld      Risultato
+                st      0D0h
+Fine:           jmp     Fine
+
+Numero:         15
+PrimaCifra:     0
+SecondaCifra:   0
+Risultato:      0
+
+InizioDivisione:     ld      b
+            cmp     0
+            je      Error
+
+Ciclo:      ld      a
+            cmp     b
+            jlu     Resto
+
+            sub     b
+            st      a
+
+            ldv     1
+            add     Q
+            st      Q
+            jmp     Ciclo
+
+Resto:      ld      a
+            st      R
+            jmp     DopoDiv
+Error:      ldv     -1
+            st      Q
+            st      R
+            jmp     DopoDiv
+
+a:          0
+b:          0
+c:          0
+Q:          0
+R:          0
+
+
+InizioMolt:     ld      b
+                cmpv    0
+                je      DopoMolt
+                ld      c
+                add     a
+                st      c
+                ld      b
+                subv    1
+                st      b
+                jmp     InizioMolt

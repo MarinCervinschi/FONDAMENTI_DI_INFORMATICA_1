@@ -1,0 +1,32 @@
+start:          ld      m
+                cmpv    0
+                je      store
+                cmp     n
+                je      store
+                jlu     swipe
+
+subtraction:    ld      m
+                sub     n
+                st      m
+                jmp     start
+
+swipe:          ld      m
+                st      c
+                ld      n
+                st      m
+                ld      c
+                st      n
+                ldv     0
+                st      c
+                jmp     subtraction
+
+store:          ld      n
+                st      0D0h
+                st      mcd
+
+end:            jmp     end
+
+m:              238
+n:              102
+mcd:            0
+c:              0

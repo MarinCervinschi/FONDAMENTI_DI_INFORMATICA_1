@@ -1,0 +1,5 @@
+Visualizzare un array (equivalente a "nome, dimensione"):
+
+	⁃	(tipo (&) [dimensione]) *nome
+	⁃	*nome @ dimensione
+ 

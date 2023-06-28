@@ -1,0 +1,12 @@
+Inizio:         ld      A
+                andv    001h
+                jz      Pari
+Dispari:        ldv     1
+                st      D
+                jmp     Fine
+Pari:           ldv     0
+                st      D
+Fine:           jmp     Fine
+
+A:              30
+D:              -1

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:trim.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char (&amp;) [17]) *res">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "trim:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char (&amp;) [15]) *res">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "trim:trim.c">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

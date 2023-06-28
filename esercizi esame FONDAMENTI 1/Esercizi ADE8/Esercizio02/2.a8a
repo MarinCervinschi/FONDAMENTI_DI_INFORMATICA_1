@@ -1,0 +1,5 @@
+Inizio:     ld  0D2h
+            st  0D1h
+            st  0D0h
+
+            jmp Inizio

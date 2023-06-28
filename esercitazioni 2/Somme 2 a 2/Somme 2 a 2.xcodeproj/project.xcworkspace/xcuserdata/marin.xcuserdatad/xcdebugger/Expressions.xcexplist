@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:somme_2a2.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(uint32_t (&amp;) [6]) *somme">
+            </PersistentString>
+            <PersistentString
+               value = "(uint32_t (&amp;) [10]) *v">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "somme_2a2:somme_2a2.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(uint32_t (&amp;) [6]) *somme">
+            </PersistentString>
+            <PersistentString
+               value = "(uint32_t (&amp;) [6]) *vett">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

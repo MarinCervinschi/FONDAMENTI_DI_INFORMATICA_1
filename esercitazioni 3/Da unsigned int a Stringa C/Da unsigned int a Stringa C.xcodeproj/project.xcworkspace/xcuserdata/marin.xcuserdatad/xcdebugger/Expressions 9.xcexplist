@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "main:conversione.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char (&amp;) [9]) *k">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "converti:conversione.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char (&amp;) [6]) *k">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

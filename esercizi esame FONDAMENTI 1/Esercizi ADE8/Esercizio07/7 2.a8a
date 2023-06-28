@@ -1,0 +1,29 @@
+Inizio:     ld      b
+            cmp     0
+            je      Error
+
+Ciclo:      ld      a
+            cmp     b
+            jlu     Resto
+
+            sub     b
+            st      a
+
+            ldv     1
+            add     Q
+            st      Q
+            jmp     Ciclo
+
+Resto:      ld      a
+            st      R
+            jmp     Fine
+Error:      ldv     -1
+            st      Q
+            st      R
+            jmp     Fine
+
+a:          100
+b:          0
+Q:          0
+R:          0
+Fine:       jmp     Fine

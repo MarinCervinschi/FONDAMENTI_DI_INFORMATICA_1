@@ -1,0 +1,28 @@
+Inizio:     ld      A1
+            add     B
+            st      C1
+            jc      Riporto
+            jmp     Fine
+
+
+
+Riporto:    ldv     1
+            st      D
+            ld      A0
+            addv    1
+            st      C0
+            jmp     Fine
+
+A1:         255
+A0:         240
+
+
+B:          1
+
+C1:         0
+C0:         0
+
+D:          0
+
+
+Fine:       jmp     Fine

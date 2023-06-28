@@ -1,0 +1,13 @@
+Inizio:     ld  a
+            add b
+            st  c
+            jo  Over
+            jmp Fine
+Over:       ldv 1
+            st  d
+
+Fine:       jmp Fine
+a:          120
+b:          50
+c:          0
+d:          0

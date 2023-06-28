@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "convolution3:convolution.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;) [7]) *res">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "convolution3:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;) [7]) *res">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

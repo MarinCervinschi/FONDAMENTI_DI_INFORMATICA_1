@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "encryptd:encrypt.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char (&amp;) [5]) *s">
+            </PersistentString>
+            <PersistentString
+               value = "(char (&amp;) [3]) *f">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "encrypt:encrypt.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(char (&amp;) [2]) *s">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:encrypt.c">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

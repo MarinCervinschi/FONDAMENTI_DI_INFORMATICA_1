@@ -1,0 +1,4 @@
+Inizio:         ldv     0abh
+                sti     0D0h
+
+Fine:           jmp     Fine

@@ -1,0 +1,13 @@
+start:          ld      a
+                st      c
+                ld      b
+                st      a
+                ld      c
+                st      b
+                ldv     0
+                st      c
+end:            jmp     end
+
+a:              77h
+b:              66h
+c:              0

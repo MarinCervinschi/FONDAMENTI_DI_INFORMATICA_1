@@ -1,0 +1,17 @@
+Inizio:     ldv     Stringa
+            st      p
+Ciclo:      ldi     p
+            cmpv    0
+            je      Fine
+            ldv     1
+            add     p
+            st      p
+            ldv     1
+            add     Lunghezza
+            st      Lunghezza
+            jmp     Ciclo
+
+p:          0
+Stringa:    'Parmigiano' 0
+Lunghezza:  0
+Fine:       jmp     Fine

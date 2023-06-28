@@ -1,0 +1,29 @@
+Inizio: ldv     X
+        st      P
+
+Ciclo:  ldi     P
+        cmp     Temp
+        jls     Skip
+        st      Temp
+
+Skip:   ld      P
+        addv    1
+        st      P
+
+        ld      N
+        subv    1
+        st      N
+        jz      Store
+        jmp     Ciclo
+
+Store:  ld Temp
+        st Max
+
+Fine:   jmp Fine
+
+
+P:      0
+N:      10
+X:      35 50 30 45 40 20 10 60 35 25
+Temp:   -128
+Max:    -1

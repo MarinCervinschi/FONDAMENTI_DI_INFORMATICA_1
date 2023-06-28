@@ -1,0 +1,18 @@
+double pow(double x, double n)
+{
+    double x1=x;
+    
+    if (n == 0) {
+        return 1;
+    }
+    do {
+	if (n==1) {
+            return x;
+        }        
+	x *= x1;
+        --n;
+        
+    } while (n != 0);
+    
+    return x;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "crea_inizializza:array.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(int (&amp;) [5]) *vet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "crea_inizializza:main.c">
+         <PersistentStrings>
+            <PersistentString
+               value = "(unsigned int (&amp;) [5]) *vet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

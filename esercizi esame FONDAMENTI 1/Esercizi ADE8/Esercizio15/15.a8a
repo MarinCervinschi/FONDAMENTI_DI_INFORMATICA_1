@@ -1,0 +1,29 @@
+Inizio:     ldv     src
+            st      p1
+            ldv     dst
+            st      p2
+
+Ciclo:      ldi     p1
+            cmpv    0
+            je      Zero
+            sti     p2
+
+            ld      p1
+            addv    1
+            st      p1
+
+            ld      p2
+            addv    1
+            st      p2
+
+            jmp     Ciclo
+
+Zero:       ldv     0
+            sti     p2
+
+Fine:       jmp     Fine
+p1:         0
+p2:         0
+i:          0
+src:        'Parmigiano' 0
+dst:        0

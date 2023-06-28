@@ -1,0 +1,19 @@
+Inizio:         ld      A
+                cmp     0
+                jls     Negat
+
+Pos:            ldv     0
+                st      B0
+                jmp     Dopo
+
+Negat:          ldv     0FFh
+                st      B0
+Dopo:           ld      A
+                st      B1
+                jmp     Fine
+
+A:              -15
+B1:             000h
+B0:             000h
+Fine:           jmp     Fine
+
