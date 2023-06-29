@@ -1,4 +1,4 @@
-# Fondamenti_Di_Informatica_1
+# FONDAMENTI DI INFORMATICA 1
  
 by Costantino Grana
 # Programma del corso:
