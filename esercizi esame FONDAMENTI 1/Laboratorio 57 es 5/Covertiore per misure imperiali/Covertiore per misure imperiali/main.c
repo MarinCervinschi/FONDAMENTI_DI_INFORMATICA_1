@@ -3,7 +3,7 @@
 #include <stdlib.h>
 int main(void) {
     
-    char *str = "100 yd.";
+    char *str = "5'7\";
     double metri = 0;
     metri = to_meter(str);
     printf("%lf", metri);
