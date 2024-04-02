@@ -1,3 +1,9 @@
+<div align="left">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=MarinCervinschi.FondamentiDiInformaticaI&"  />
+</div>
+
+###
+
 # FUNDAMENTALS OF COMPUTER SCIENCE 1
 
 **Author**: Costantino Grana
